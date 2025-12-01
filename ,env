@@ -1,0 +1,18 @@
+# --- Сертификаты Paymtech ---
+PAYMTECH_CERT_PATH=./certs/cert.pem
+PAYMTECH_KEY_PATH=./certs/key.pem
+PAYMTECH_PASSPHRASE=R0Jc9ji0ikSZ
+
+# --- Доступ к API Paymtech ---
+PAYMTECH_BASE_URL=https://sandboxapi.paymtech.kz
+PAYMTECH_USERNAME=neuroboost
+PAYMTECH_PASSWORD=a0tBtu1bIA3ohQN9
+
+# --- Параметры платежей ---
+PAYMTECH_CURRENCY=KZT
+PAYMTECH_DESCRIPTION=Оплата услуги на Neuroboost
+PAYMTECH_RETURN_URL=https://neuroboost.kz/payment/result
+PAYMTECH_LANGUAGE=ru
+
+# --- Сервер ---
+PORT=3001
